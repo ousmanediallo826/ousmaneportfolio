@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
+import Project from "./Components/project";
 
 
 export default function Page() {
@@ -20,6 +21,9 @@ export default function Page() {
       </div>
       <div>
         <Skills/>
+      </div>
+      <div>
+        <Project/>
       </div>
     </div>
   );
