@@ -4,6 +4,8 @@ import HeroSection from "./Components/HeroSection";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import Project from "./Components/project";
+import { ShootingStarsAndStarsBackgroundDemo } from "./Components/ShootingStarsAndStarsBackgroundDemo";
+import Footer from "./Components/Footer";
 
 
 export default function Page() {
@@ -24,6 +26,12 @@ export default function Page() {
       </div>
       <div className="max-w-7xl mx-auto p-5">
         <Project/>
+      </div>
+      <div className="max-w-7xl mx-auto p-10">
+        <ShootingStarsAndStarsBackgroundDemo/>
+      </div>
+      <div className="max-w-7xl mx-auto p-10">
+        <Footer />
       </div>
     </div>
   );

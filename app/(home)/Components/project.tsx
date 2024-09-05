@@ -57,7 +57,7 @@ export default function Project() {
         <div className='py-10 p-5 sm:p-0'>
             <h1 className='text-4xl text-center justify-center py-5 -rotate-6 bg-clip-text underline underline-offset-8 decoration-blue-500 py-10'>
               Projects 🎨</h1>
-            <span className="w-[50%] text-1xl text-center block mx-auto py-10">
+            <span className="w-[50%] text-1xl text-center block mx-auto py-10  ">
                 "Explore My Latest Project: Dive into the details of my most recent work and see how I'm leveraging AI and mainframe technology to drive innovation."
             </span>
             <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-10'>
