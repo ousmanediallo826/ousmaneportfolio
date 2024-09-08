@@ -6,6 +6,7 @@ import Skills from "./Components/Skills";
 import Project from "./Components/project";
 import { ShootingStarsAndStarsBackgroundDemo } from "./Components/ShootingStarsAndStarsBackgroundDemo";
 import Footer from "./Components/Footer";
+import { LinkPreviewDemoSecond } from "./Components/LinkPreviewDemoSecond";
 
 
 export default function Page() {
@@ -32,6 +33,9 @@ export default function Page() {
       </div>
       <div className="max-w-7xl mx-auto p-10">
         <Footer />
+      </div>
+      <div className="max-w-7xl mx-auto p-10">
+        <LinkPreviewDemoSecond />
       </div>
     </div>
   );
